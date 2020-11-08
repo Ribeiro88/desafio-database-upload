@@ -11,5 +11,6 @@ export default async (name = 'default'): Promise<Connection> => {
           ? 'gostack_desafio06_tests'
           : defaultOptions.database,
     }),
+
   );
 };
